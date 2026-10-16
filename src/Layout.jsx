@@ -1,12 +1,10 @@
 
-import Header  from "./Header";
-import Footer from "./Footer";
-
-function LaYout(){
+function LaYout({currentUser,role,age}){
     return(
       <div>
-       <Header/>
-       <Footer/>
+      <h2>hello,{currentUser}</h2>
+      <h3>your role is :{role}</h3>
+      <h4>your age is :{age}</h4>
 
       </div>
     )
