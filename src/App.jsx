@@ -1,13 +1,15 @@
+import Blog  from "./Exercises/Blog";
 
-import Usercard   from './Exercises/Usercard'
 function App(){
+     return(
+
+    
+     <div>
+     <Blog/>
+     </div>
+      )
   
-return (
 
- <Usercard/>
-
-
-)
   
 }
 export default App;
