@@ -1,37 +1,22 @@
-import Usercard from "./Exercises/Usercard";
+import ToggleButton from "./Exercises/Togglebutton";
+// import TodoList from "./Todolist";
+
+
 
 function App(){
-    // const name ='ahmed'
-    // const email ='nuur@gmail.com'
+   
+  
 
 
      return(
      
      <div>
-     <Usercard
-     name  = {'eng ahmed'}
-     email ={'nuur@gmail.com'}
-    
      
-     />
-
-      <Usercard
-     name = {'farxaan'}
-     email ={'farxan@gmail.com'}
-     
-     />
-
-       <Usercard
-     name = {'geedi'}
-     email ={'geedi@gmail.com'}
-     
-     />
-
+      {/* <TodoList/> */}
+      <ToggleButton/>
 
      </div>
       )
-  
-
   
 }
 export default App;

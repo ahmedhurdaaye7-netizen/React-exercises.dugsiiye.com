@@ -1,14 +1,36 @@
-function Post(){
+import { useState } from "react";
+   
+ function Post(){
+  
+const[button,setButton] = useState(false)
+  function Toggle (){
 
-    return(
-        <div>
+    setButton(!button)
+  }
+    return (
+   <div> 
+     {button ? 'the button is on ' : 'the button is off '}
+     <br></br>
+      <br></br>
+    
+    <button onClick={Toggle}>{button ? 'truned on ' :'truned off '}</button>
 
-       
-    <h2>Dugsiiye</h2>
-    <h3>tech enviroment</h3>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam officia ipsam dolorum magni perspiciatis at quasi, quis commodi officiis esse facilis voluptatem consequatur aperiam nulla culpa laudantium quo tempora voluptas!</p>
-     </div>
+
+
+
+
+
+
+   </div>
+
+
+
+
 
     )
-}
+
+
+
+ }
+
 export default Post;
