@@ -1,22 +1,20 @@
-import ToggleButton from "./Exercises/Togglebutton";
-// import TodoList from "./Todolist";
+
+import Greating from "./Exercises/Greating";
+
 
 
 
 function App(){
    
-  
+return(
 
 
-     return(
+      <div>
+      
+      < Greating/>
+      </div>
+)
      
-     <div>
-     
-      {/* <TodoList/> */}
-      <ToggleButton/>
-
-     </div>
-      )
   
 }
 export default App;
