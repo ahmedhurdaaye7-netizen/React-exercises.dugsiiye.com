@@ -1,17 +1,15 @@
 
-import Greating from "./Exercises/Greating";
-
-
-
+import Widht from "./Exercises/Window";
 
 function App(){
    
-return(
+   return(
 
 
       <div>
       
-      < Greating/>
+   {/* < Greating/> */}
+      <Widht/>
       </div>
 )
      
