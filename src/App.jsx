@@ -1,5 +1,9 @@
 
-import Widht from "./Exercises/Window";
+// import Timer from "./Exercises/Timer";
+// import Watch from "./Watch";
+// import SearchingData from "./Fetching";
+// import Conditon from "./Conditons";
+import Login from "./Exercises/Loginform";
 
 function App(){
    
@@ -9,7 +13,9 @@ function App(){
       <div>
       
    {/* < Greating/> */}
-      <Widht/>
+      {/* <Timer/> */}
+      {/* <SearchingData/> */}
+      <Login/>
       </div>
 )
      
