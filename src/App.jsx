@@ -3,7 +3,8 @@
 // import Watch from "./Watch";
 // import SearchingData from "./Fetching";
 // import Conditon from "./Conditons";
-import Login from "./Exercises/Loginform";
+// import Login from "./Exercises/Loginform";
+import Events from "./Exercises/Events";
 
 function App(){
    
@@ -15,7 +16,8 @@ function App(){
    {/* < Greating/> */}
       {/* <Timer/> */}
       {/* <SearchingData/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Events/>
       </div>
 )
      
