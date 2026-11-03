@@ -4,7 +4,8 @@
 // import SearchingData from "./Fetching";
 // import Conditon from "./Conditons";
 // import Login from "./Exercises/Loginform";
-import Events from "./Exercises/Events";
+// import Events from "./Exercises/Events";
+import CounterWithReducer from "./Exercises/CounterWithReducer";
 
 function App(){
    
@@ -17,7 +18,8 @@ function App(){
       {/* <Timer/> */}
       {/* <SearchingData/> */}
       {/* <Login/> */}
-      <Events/>
+      {/* <Events/> */}
+      <CounterWithReducer/>
       </div>
 )
      
